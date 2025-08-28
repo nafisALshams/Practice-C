@@ -14,6 +14,7 @@ int main(void)
 	printf("Dimensions: %dx%dx%d\n",height, length, width);
 	printf("Dimensional weight (pounds): %d\n", weight);
 	printf("Volume (cubic inches): %d\n", volume);
+	printf("%d\n", height * length * width);
 	return 0;
 
 }
