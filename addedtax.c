@@ -9,4 +9,5 @@ int main(void){
 	printf("Enter an amount: ");
 	scanf("%f", &inp);
 	printf("With tax added: %.2f", inp * PERCENTAGE + inp);
+	return 0;
 }
